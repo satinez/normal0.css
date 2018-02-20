@@ -3,41 +3,38 @@
 
     A simple CSS preset to enable and set some options 
     to decrease the differences between browsers.
-    
 =======================================================||== */
 
 html {
-  line-height: 1.5; /* The font-size is multiplied to get the line-height */
-  box-sizing: border-box;
-  font-size: 62.5%; /* 1rem = 10px */
-  font-family: 'Raleway', sans-serif;
-  overflow-y: scroll;
-  height: 100%;
-  --highlight-color: #FF0000; /* red */
-  --lightgray-color: #EEEEEE; /* lightgray */
-
+    line-height: 1.5; /* The font-size is multiplied to get the line-height */
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px */
+    font-family: 'Raleway', sans-serif;
+    overflow-y: scroll;
+    height: 100%;
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul, figure {
-  margin: 0;
-  padding: 0;
-  font-weight: normal;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
 }
 
 div {
-  margin: 0 auto;
-  text-align: center;
+    text-align: center;
 }
+
 span {
-  color: var(--highlight-color);
+    color: #FF0000;
+    background-color: transparent;
 }
 
 ol, ul {
-  list-style: none;
+    list-style: none;
 }
 
 img,
@@ -46,38 +43,39 @@ iframe,
 object,
 audio,
 video {
-  height: auto;
-  max-width: 100%;
-  border: 0;
-  vertical-align: bottom;
+    height: auto;
+    max-width: 100%;
+    border: 0;
+    vertical-align: bottom;
 }
 
 hr {
     display: block;
     height: 0.1rem;
-    border-top: 0.1rem solid var(--highlight-color);
+    border-top: 0.1rem solid #FF0000;
     margin: 1rem 0;
 }
 
 table {
-  margin: 0 auto;
-  border-collapse: collapse;
-  border-spacing: 0;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid #000000;
 }
 
 th, td {
-  padding: 1rem;
-  text-align: center;
+    padding: 1rem;
+    text-align: center;
 }
 
 pre {
-  font-family: monospace;
-  padding: 1rem;
-  margin: 2rem;
-  background-color: var(--lightgray-color);
-  font-size: 2rem;
+    font-family: monospace;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: #EEEEEE;
+    color: #000000;
+    font-size: 2rem;
 }
