@@ -1,5 +1,5 @@
 /* ==||=======================================================
-    normal0.css v1.0 | github.com/satinez/normal0.css
+    normal0.css v1.1 | github.com/satinez/normal0.css
 
     A simple CSS preset to enable and set some options 
     to decrease the differences between browsers.
@@ -8,8 +8,8 @@
 html {
     line-height: 1.5; /* The font-size is multiplied to get the line-height */
     box-sizing: border-box;
-    font-size: 62.5%; /* 1rem = 10px */
-    font-family: 'Raleway', sans-serif;
+    font-size: 10px; /* 1rem = 10px */
+    font-family: sans-serif;
     overflow-y: scroll;
     height: 100%;
 }
