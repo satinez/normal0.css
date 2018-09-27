@@ -24,11 +24,6 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul, figure {
     font-weight: normal;
 }
 
-span {
-    color: #FF0000;
-    background-color: transparent;
-}
-
 ol, ul {
     list-style: none;
 }
@@ -57,12 +52,8 @@ table {
     border-spacing: 0;
 }
 
-table, th, td {
-    border: 1px solid #000000;
-}
-
 th, td {
-    padding: 1rem;
+    padding: 0.4rem;
 }
 
 pre {
